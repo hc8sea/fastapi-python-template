@@ -30,7 +30,7 @@ python -m venv venv
 .\venv\Scripts\activate
 python -m pip install -r requirements.txt
 python -m uvicorn api.index:app --reload
-
+```
 
 Your FastAPI application is now available at `http://127.0.0.1:8000/`.
 
