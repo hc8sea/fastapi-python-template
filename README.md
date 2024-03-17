@@ -10,16 +10,16 @@ https://fastapi-python-template.vercel.app/
 
 ## How it Works
 
-This example uses the Web Server Gateway Interface (WSGI) with FastAPI to enable handling requests on Vercel with Serverless Functions.
+This example uses the Asynchronous Server Gateway Interface (ASGI) with FastAPI to enable handling requests on Vercel with Serverless Functions.
 
 ## Running Locally
 
 ```bash
-npm i -g vercel
-vercel dev
+python -m pip install -r requirements.txt
+python -m uvicorn api.index:app --reload
 ```
 
-Your Flask application is now available at `http://localhost:3000`.
+Your FastAPI application is now available at `http://localhost:8000`.
 
 ## One-Click Deploy
 
