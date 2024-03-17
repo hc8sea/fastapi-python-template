@@ -38,8 +38,8 @@ Your FastAPI application is now available at `http://127.0.0.1:8000/`.
 
 Now go to `http://127.0.0.1:8000/docs`.
 
-You will see the automatic interactive API documentation (provided by [Swagger UI](https://github.com/swagger-api/swagger-ui)):
-Alternatively, go to `http://127.0.0.1:8000/redoc` to see the alternative documentaion (provided by [ReDoc](https://github.com/Rebilly/ReDoc)).
+You will see the automatic interactive API documentation (provided by [Swagger UI](https://github.com/swagger-api/swagger-ui)).
+Alternatively, go to `http://127.0.0.1:8000/redoc` to see the alternative documentation (provided by [ReDoc](https://github.com/Rebilly/ReDoc)).
 
 ## One-Click Deploy
 
